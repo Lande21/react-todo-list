@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import TaskList from './TaskList'; // Adjust the path based on your project structure
-
+import './taskstyle.css'
 const App = () => {
   // State for tasks
   const [tasks, setTasks] = useState([

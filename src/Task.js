@@ -1,6 +1,7 @@
 // Task.js
 
 import React from 'react';
+import './taskstyle.css'
 
 const Task = ({ task, onToggle, onDelete }) => {
   // Check if task is undefined or doesn't have a completed property
@@ -16,7 +17,7 @@ const Task = ({ task, onToggle, onDelete }) => {
         onChange={() => onToggle(task.id)}
       />
       <span className="task-name">{task.name}</span>
-      <button onClick={() => onDelete(task.id)}>Delete</button>
+      <button className ="butt" onClick={() => onDelete(task.id)}>Delete</button>
     </div>
   );
 };
