@@ -19,8 +19,8 @@ const App = () => {
     { id: 11, name: 'Dinner, do the dishes', completed: true },
     { id: 12, name: 'Git Commit at least three tasks', completed: true },
     { id: 13, name: 'Watch TV/ Movie', completed: true },
-    { id: 14, name: 'Say my Prayers', completed: true },
-    { id: 15, name: 'go to bed', completed: true },
+    { id: 14, name: 'Say my Grace Prayers', completed: true },
+    { id: 15, name: 'Go to bed', completed: true },
     // ... more tasks
   ]);
 
